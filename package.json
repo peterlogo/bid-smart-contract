@@ -4,7 +4,9 @@
   "description": "A smart contract for managing bidding activities on the ethereum blockchain",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npx hardhat compile",
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test"
   },
   "repository": {
     "type": "git",
